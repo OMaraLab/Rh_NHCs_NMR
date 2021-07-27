@@ -1,0 +1,40 @@
+! PBE0 ZORA SARC/J CPCM(Chloroform) 
+! DEFGRID3 TIGHTSCF
+! SLOWCONV
+! NMR
+
+
+# enhance grid accuracy
+%method
+ IntAcc 12
+end
+
+# print hirshfeld charges
+%output
+ Print[ P_Hirshfeld] 1
+end
+
+
+# ZORA-def2-TZVP with SARC-ZORA-TZVP basis set for Rh
+%basis
+ GTOName = "ZORA-def2-TZVP_SARC-ZORA-RH.bas"
+end
+
+%maxcore 3000
+
+%pal
+ nproc 48
+end
+
+# force NMR to use RI/J 
+%eprnmr
+ giao_2el = giao_2el_same_as_scf 
+ PrintLevel 3
+ LocOrbGBW "NMR.gbw"
+end
+
+# geometry input
+* xyzfile 0 1 OPT_aligned.xyz
+
+
+ 
