@@ -1,0 +1,31 @@
+! TPSS D3BJ ZORA OPT SARC/J CPCM(Chloroform)
+! GRID7 NOFINALGRID TIGHTSCF 
+! NUMFREQ
+! SLOWCONV
+
+%method
+ IntAcc 12
+end
+
+# ZORA-def2-TZVP with SARC-ZORA-TZVP basis set for Rh
+%basis
+ GTOName = "ZORA-def2-TZVP_SARC-ZORA-RH.bas"
+end
+
+%maxcore 3000
+
+%pal
+ nproc 48 
+end
+
+%freq
+ restart true
+end
+
+* xyzfile 0 1 OPT_cont.xyz 
+
+
+
+
+
+ 
