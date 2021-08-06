@@ -2,7 +2,7 @@
 
 HOMO = 321 
 
-LARGEST OCC -> VIRT contributors
+LARGEST OCC -> VIRT 
 
 | orbital | contribution |
 |---------|--------------|
@@ -18,6 +18,8 @@ LARGEST OCC -> VIRT contributors
 |315 -> 321| -131.24      |
 |315 -> 324| -248.04      |
 | etc      |  etc         |
+
+
 | HOMO-1   | contribution |
 |----------|--------------|
 |320 -> 322|   73.15      |
@@ -26,11 +28,12 @@ LARGEST OCC -> VIRT contributors
 |320 -> 343|  -99.35      |
 |etc       |   etc        | 
 
-HOMO:
-321 -> 324 -782.55
-321 -> 323 -139.37
-etc
+|HOMO      | contribution |
+|----------|--------------|
+|321 -> 324|  -782.55     |
+|321 -> 323|  -139.37     |
+| etc      | etc          |
                                                                                  
-KEY TRANSITION 
-HOMO -> HOMO + 3 
+**KEY TRANSITION**
+*HOMO -> HOMO + 3* 
             
