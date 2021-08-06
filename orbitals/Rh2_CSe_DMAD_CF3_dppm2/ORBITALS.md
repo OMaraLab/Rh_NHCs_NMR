@@ -3,9 +3,13 @@ IMPORTANT ORBITALS
 HOMO = 321 
 
 LARGEST OCC -> VIRT contributors
-321  -1058.70
-320  -485.65
-315  -260.10
+
+| orbital | contribution |
+|---------|--------------|
+| 321     |  -1058.70    |
+| 320     |  -485.65     |
+| 315     |  -260.10     |
+
 etc
 
 PAIRS
